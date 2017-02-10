@@ -1,0 +1,31 @@
+#-*- coding: utf-8 -*-
+from array import *
+import sys
+import codecs
+from keyword_list import mar_keyword, mar_builtin_method, mar_exception, mar_sys
+
+#key_in = raw_input("Enter mar number")
+
+
+class keyword_con():
+    def eng_equal(self,key_in):
+        k = mar_keyword()
+        b = mar_builtin_method()
+        e = mar_exception()
+        s = mar_sys()
+
+        if  k.keyword.has_key(key_in):
+            return k.keyword[key_in]
+
+        elif b.keyword.has_key(key_in):
+            return b.keyword[key_in]
+
+        elif e.keyword.has_key(key_in):
+            return e.keyword[key_in]
+
+        elif s.keyword.has_key(key_in):
+            return s.keyword[key_in]
+
+
+
+
