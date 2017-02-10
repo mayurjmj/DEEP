@@ -1,0 +1,6 @@
+*code 
+  numeric_convert (.py) --- this converts marathi number strings to english equivalent with value
+  tokenize (.py) --- this code inputs the string and tokenizes it and passes the tokens to keyword_convert for equivalent english keywords and prints it to the console
+*classes
+ keyword_con --- this class in keyword_convert converts the marathi keywords to equivalent english keyword and returns it
+ 
